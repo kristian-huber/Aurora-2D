@@ -1,0 +1,16 @@
+#version 150
+
+in vec2 passTexCoords;
+
+out vec4 out_Color;
+
+uniform sampler2D colorTexture;
+uniform sampler2D highlightTexture;
+
+void main(void){
+
+	vec4 sceneColor = texture(colorTexture, passTexCoords);
+	vec4 highlightColor = texture(highlightTexture, passTexCoords);
+
+	out_Color = sceneColor * 0.75 + highlightColor * 0.75;
+}

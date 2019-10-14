@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{b0548135-2d5d-4ca0-ae83-64ac98617f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{94972e5c-3783-463c-b5c5-bbfe6a992d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testing">
+      <UniqueIdentifier>{5f0a3585-f9fd-497b-8122-9f0a77279e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{e8a7c80c-6887-4de5-b283-c6ef3fb3159e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{d3d96cfb-a6a7-4f9e-af92-75fd9894e19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{9f815b8d-c3ac-458d-859f-1359f025f307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{09f78cb6-f6bc-42ef-b450-44e992984adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprite">
+      <UniqueIdentifier>{0699411e-ff04-4d9c-aaad-93c948f39460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{0d7facfe-695b-4ac6-8689-1bb3c8b43e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{3b0ee320-afe4-402b-8424-78d2090db3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{c140c291-e4c4-46e8-9fd8-3cd5df640126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{3b871aa7-9629-42c6-8d9e-a3ade79c2d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBO">
+      <UniqueIdentifier>{f178397b-d3e1-469b-9532-484cd8c6d81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO">
+      <UniqueIdentifier>{97870113-926e-457b-bfe5-317a4afdd85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FBO">
+      <UniqueIdentifier>{3d7b5176-79d6-4e06-9207-6fa01d31e4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Text">
+      <UniqueIdentifier>{352d16a1-5621-4dcf-8578-a56ed869fe40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprite">
+      <UniqueIdentifier>{14a485b6-3886-43d5-ae17-1339ade3605b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GUI">
+      <UniqueIdentifier>{1ead3cb7-d953-465f-a585-197664835b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBO\Contrast">
+      <UniqueIdentifier>{636f205d-3b78-4f3d-8bf9-533b190148e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO\Contrast">
+      <UniqueIdentifier>{c740d19a-6ec8-4617-b593-0d98e82b0e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBO\Blur">
+      <UniqueIdentifier>{0761308e-5822-410f-aca4-f311e24d5448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO\Blur">
+      <UniqueIdentifier>{1c8d09d0-1231-4a8f-ba90-9485d4feadf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBO\Bloom">
+      <UniqueIdentifier>{2d351e5b-1c9e-40f0-bab7-21928d0ca243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO\Bloom">
+      <UniqueIdentifier>{544f0360-1072-435d-9973-f3cec950cd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{91857f16-1a96-4829-b96a-01a7c4d72a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{056687cf-c44e-4dc2-8e87-998a6ea70471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GUI\GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\GUIRenderer.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\GUIScreen.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\GUIShader.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\BaseShader.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\MasterRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\ModelManager.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\TextureManager.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Textures.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Window.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite\Light.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite\Sprite.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite\SpriteRenderer.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite\SpriteShader.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Testing\Cursor.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Testing\Player.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Testing\World.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\Text.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\TextLoader.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\TextRenderer.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\TextShader.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Constants.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Engine.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\InputManager.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\VectorMap.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Testing\Test.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FBO\FBO.h">
+      <Filter>Header Files\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FBO\ContrastShader.h">
+      <Filter>Header Files\FBO\Contrast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FBO\ImageRenderer.h">
+      <Filter>Header Files\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessing.h">
+      <Filter>Header Files\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="ContrastChanger.h">
+      <Filter>Header Files\FBO\Contrast</Filter>
+    </ClInclude>
+    <ClInclude Include="GuassianBlur.h">
+      <Filter>Header Files\FBO\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurShader.h">
+      <Filter>Header Files\FBO\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightFilter.h">
+      <Filter>Header Files\FBO\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="CombineFilter.h">
+      <Filter>Header Files\FBO\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightFilterShader.h">
+      <Filter>Header Files\FBO\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="CombineShader.h">
+      <Filter>Header Files\FBO\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager2.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GUI\GUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\GUIRenderer.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\GUIScreen.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\GUIShader.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\BaseShader.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\MasterRenderer.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\ModelManager.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\TextureManager.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Window.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite\Sprite.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite\SpriteRenderer.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite\SpriteShader.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Testing\Cursor.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Testing\Main.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Testing\Player.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Testing\World.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text\TextLoader.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text\TextRenderer.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text\TextShader.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Constants.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Engine.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\InputManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Testing\Test.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FBO\FBO.cpp">
+      <Filter>Source Files\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FBO\ContrastShader.cpp">
+      <Filter>Source Files\FBO\Contrast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FBO\ImageRenderer.cpp">
+      <Filter>Source Files\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessing.cpp">
+      <Filter>Source Files\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="ContrastChanger.cpp">
+      <Filter>Source Files\FBO\Contrast</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianBlur.cpp">
+      <Filter>Source Files\FBO\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurShader.cpp">
+      <Filter>Source Files\FBO\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="CombineShader.cpp">
+      <Filter>Source Files\FBO\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="CombineFilter.cpp">
+      <Filter>Source Files\FBO\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightFilter.cpp">
+      <Filter>Source Files\FBO\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager2.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\TextFrag.txt">
+      <Filter>Resource Files\Text</Filter>
+    </Text>
+    <Text Include="Shaders\TextVert.txt">
+      <Filter>Resource Files\Text</Filter>
+    </Text>
+    <Text Include="Shaders\FragmentShader.txt">
+      <Filter>Resource Files\Sprite</Filter>
+    </Text>
+    <Text Include="Shaders\VertexShader.txt">
+      <Filter>Resource Files\Sprite</Filter>
+    </Text>
+    <Text Include="Shaders\GUIFrag.txt">
+      <Filter>Resource Files\GUI</Filter>
+    </Text>
+    <Text Include="Shaders\GUIVert.txt">
+      <Filter>Resource Files\GUI</Filter>
+    </Text>
+    <Text Include="Shaders\FBOVertShader.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+    <Text Include="Shaders\FBOBlurFrag.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+    <Text Include="Shaders\FBOBlurVert.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+    <Text Include="Shaders\FBOBrightFilterFrag.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+    <Text Include="Shaders\FBOCombineFrag.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+    <Text Include="Shaders\FBOContrast.txt">
+      <Filter>Resource Files\FBO</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
